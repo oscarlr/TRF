@@ -252,9 +252,9 @@ int main(int ac, char** av)
 		" Value must be a positive integer.";
 	}
 	else if ((ParseUInt(av[8], &paramset.maxperiod) == 0) ||
-		(paramset.maxperiod > 2000) || (paramset.maxperiod == 0)) {
+		(paramset.maxperiod > 50000) || (paramset.maxperiod == 0)) {
 		paramset.endstatus = "Error parsing MaxPeriod parameter."
-		" Value must be between 1 and 2000, inclusive.";
+		" Value must be between 1 and 50000, inclusive.";
 	}
 
 	/* Error if any validation failed */

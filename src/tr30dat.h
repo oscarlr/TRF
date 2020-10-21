@@ -98,13 +98,13 @@ int counterInSeq = 0;
 
 #define WEIGHTCONSENSUS 0
 #define REPEATCONSENSUS 0
-#define MAXDISTANCECONSTANT 2000 /* should replaced by a variable, later */
+#define MAXDISTANCECONSTANT 20000 /* should replaced by a variable, later */
 #define MINDISTANCE 10
 #define MINBANDRADIUS 6
 #define RECENTERCRITERION 3
 /* 6/24/05 G. Benson */
 //#define MAXBANDWIDTH 300
-#define MAXBANDWIDTH 150
+#define MAXBANDWIDTH 1000
 #define MAXTUPLESIZES 10
 /* 6/17/05 G. Benson */
 /* 1/26/10 G. Benson */
